@@ -24,6 +24,7 @@ WARNING: All messages will be deleted permanently (not moved to Trash).
 try:
     arguments = argparse.ArgumentParser(parents=[tools.argparser], description='Mass mail deleter for Gmail')
     arguments.add_argument('-s', '--secret', type=str, help='Path to the Google client secret json', required=False)
+    print (arguments)
 except ImportError:
     arguments = None
 
