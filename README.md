@@ -28,9 +28,7 @@ Installation
 
  - Download json file from gmail api and save as client.json to the root folder of the project
 
- - Run:
-
-   `pip install --upgrade google-api-python-client`
+ - Run: `pip install --upgrade google-api-python-client`
 
 
 (Check requirements.txt for additional informations about requirements for installation)
