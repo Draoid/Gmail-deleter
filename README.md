@@ -1,10 +1,9 @@
-# Gmail-deleter
+# Shell Gmail
 
 Getting started
 ---------------
-To get started, you need a JSON file from your Gmail API application (client.json).
 
-This script will help you delete unnecessary emails on gmail. It will provide you with options to delete all emails, emails from certain category and emails from a certain user . It also has additional features for emptying trash, deleting spam emails, getting statistics for email size, or displaying frequency of sent/received emails to/from a certain user.
+This script will help you search for emails, open and delete unnecessary emails on gmail. It will give you the option to delete all emails, emails from a specific category, and emails from a specific user. It also has additional features for emptying the trash, deleting spam emails, getting statistics on the size of emails, or displaying the frequency of sent/received emails from a specific user.
 
 
 Prerequisites
@@ -27,6 +26,8 @@ Installation
 
  - Optional: Create a virtual environment
 
+ - Download json file from gmail api and save as client.json to the root folder of the project
+
  - Run:
 
    `pip install --upgrade google-api-python-client`
@@ -42,7 +43,8 @@ Usage
 
 Run script inside *src* folder with:
 
-`python gmail_deleter.py`
+`python gmail_deleter.py` or
+`python gmail_search.py`
 
 You can add extra options -s or --secret with a path to your "credentials.json" file.
 
@@ -55,14 +57,7 @@ The script provides the following options:
  - clear trash
  - clear spam
  - delete messages matching custom filter
+ - Search for emails
 
 **WARNING:** All messages will be deleted permanently (**not** moved to **Trash**).
 
-To run gmail_search, the client.json file from your Gmail API application is required.
-Features of gmail_search:
-
-Search by keywords.
-
-Search by email addresses.
-
-Open results in the terminal or in a browser.
