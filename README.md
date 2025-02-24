@@ -2,6 +2,7 @@
 
 Getting started
 ---------------
+To get started, you need a JSON file from your Gmail API application (client.json).
 
 This script will help you delete unnecessary emails on gmail. It will provide you with options to delete all emails, emails from certain category and emails from a certain user . It also has additional features for emptying trash, deleting spam emails, getting statistics for email size, or displaying frequency of sent/received emails to/from a certain user.
 
@@ -56,3 +57,12 @@ The script provides the following options:
  - delete messages matching custom filter
 
 **WARNING:** All messages will be deleted permanently (**not** moved to **Trash**).
+
+To run gmail_search, the client.json file from your Gmail API application is required.
+Features of gmail_search:
+
+Search by keywords.
+
+Search by email addresses.
+
+Open results in the terminal or in a browser.

@@ -32,3 +32,4 @@ subprocess32==3.5.4
 tqdm==4.66.4
 uritemplate==4.1.1
 urllib3==2.2.2
+google-auth-oauthlib==1.2.1
